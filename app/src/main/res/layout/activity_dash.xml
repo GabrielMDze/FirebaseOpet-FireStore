@@ -38,6 +38,12 @@
         android:layout_height="wrap_content"/>
 
     <Button
+        android:onClick="uploadActivity"
+        android:text="Upload de Arquivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
         android:text="SAIR"
         android:onClick="sair"
         android:layout_width="match_parent"
