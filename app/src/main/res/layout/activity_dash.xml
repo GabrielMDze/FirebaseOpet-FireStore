@@ -26,9 +26,21 @@
         android:layout_height="wrap_content"/>
 
     <Button
+        android:onClick="gerardadosnofirebase"
+        android:text="Gerar Dado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="buscar"
+        android:text="Buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
         android:text="SAIR"
         android:onClick="sair"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    
+
 </LinearLayout>
