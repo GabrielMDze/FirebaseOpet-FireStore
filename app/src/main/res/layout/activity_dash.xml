@@ -44,6 +44,18 @@
         android:layout_height="wrap_content"/>
 
     <Button
+        android:onClick="showImageActivity"
+        android:text="Mostrar Imagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="showMapActivity"
+        android:text="Mostrar Mapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
         android:text="SAIR"
         android:onClick="sair"
         android:layout_width="match_parent"

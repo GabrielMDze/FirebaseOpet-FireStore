@@ -85,4 +85,14 @@ public class DashActivity extends AppCompatActivity {
         Intent cadoneactivity = new Intent(DashActivity.this,ImageActivity.class);
         startActivity(cadoneactivity);
     }
+
+    public void showImageActivity(View view) {
+        Intent cadoneactivity = new Intent(DashActivity.this,DonwloadActivity.class);
+        startActivity(cadoneactivity);
+    }
+
+    public void showMapActivity(View view) {
+        Intent cadoneactivity = new Intent(DashActivity.this,MapsActivity.class);
+        startActivity(cadoneactivity);
+    }
 }
